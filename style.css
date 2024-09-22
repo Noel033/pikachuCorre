@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  background-image: url("https://elcomercio.pe/resizer/ILpZ9pE3cB0JiAJuAG2LdNUHMH8=/1782x1080/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/UIUUURUELBAEJI4CMXOLQMPLIA.jpg");
+  background-size: cover;
+}
+
+#gameArea {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  position: relative;
+}
+
+#pokemon {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-image: url("https://i.gifer.com/2iiJ.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
