@@ -1,7 +1,7 @@
 const pokemon = document.getElementById("pokemon");
-const gameArea = document.getElementById("gameArea");
-let posX = 200; // Centrado horizontalmente (500/2 - 100/2)
-let posY = 200; // Centrado verticalmente (500/2 - 100/2)
+
+let posX = 200;
+let posY = 200;
 const step = 10;
 
 document.addEventListener("keydown", (e) => {
@@ -27,5 +27,4 @@ function updatePosition() {
   pokemon.style.top = posY + "px";
 }
 
-// Posición inicial
 updatePosition();
